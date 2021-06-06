@@ -173,6 +173,7 @@
     
     
         <form class="form">
+            <br>
             <label for="email">Email:</label>
             <input type="text" id="email" name="email">
             <br>
@@ -181,10 +182,29 @@
             <input type="radio" id="yesEmail" name="yesEmail">
             <label for="noEmail">Don't send me emails please</label>
             <input type="radio" id="noEmail" name="noEmail">
+            <br>
+            <br>
+            <label for="shirtSize">Select your T-Shirt Size</label>
+            <select name="shirtSize" id="shirtSize">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="xlarge">Extra-Large</option>
+            </select>
+
+            <h3>How did you hear about me?</h3>
+            
+            <label for="facebook">Facebook</label>
+            <input type="checkbox" id="facebook" name="hearAbout" value="facebook">
+            <label for="referral">Referral</label>
+            <input type="checkbox" name="hearAbout" id="referral" value="referral">
+            <label for="newspaper">Newspaper</label>
+            <input type="checkbox" id="newspaper" name="hearAbout" value="newspaper">
+            <br>
+            <br>
+            <input type="submit" id="submit" name="submit">
+            <br>
+            <br>
         </form>
-    
-   
-
 </body>
-
 </html>
