@@ -5,11 +5,26 @@
     <meta charset="UTF-8">
     <title>My Awesome Blog</title>
     <meta name="description" content="A blog containing a bunch of random items about me.">
-    <style type="text/css">
+    <style>
         .header h1 {
             text-align: center;
-            text-decoration: wavy;
             font-size: 70px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #C2EABA;
+        }
+
+        .header h2 {
+            text-align: center;
+            text-decoration: wavy;
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #C2EABA;
+        }
+
+        .header h3 {
+            text-align: center;
+            text-decoration: wavy;
+            font-size: 30px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             background-color: #C2EABA;
         }
@@ -18,7 +33,6 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 400;
             height: auto;
         }
 
@@ -26,11 +40,19 @@
             margin-left: auto;
             margin-right: auto;
         }
-        
+
+        .form{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            outline: 5px dotted green;
+        }
+
         .tableTop {
             margin-left: auto;
             margin-right: auto;
             background-color: #8F8389;
+            font-size: 40px;
         }
 
         .body {
@@ -45,9 +67,13 @@
         }
 
         tr:nth-child(odd) {
-            background-color:#A7C4A0  ;
+            background-color: #A7C4A0;
         }
 
+        ul {
+            font: 20px "Times New Roman", Times, serif;
+
+        }
     </style>
 </head>
 
@@ -55,7 +81,7 @@
     <div class="header">
         <h1>Chris Morton's Blog</h1>
     </div>
-    <img src="Family2.jpg" alt="A Picture of me and my family" class="center" height="auto" width="600">
+    <img src="Family2.jpg" alt="A Picture of me and my family" class="center" width="600">
     <div class="paragraph">
         <p>
             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
@@ -72,69 +98,92 @@
             foresee
         </p>
     </div>
+
+    <table class="tableCenter">
+        <thead class="tableTop">
+            <th colspan="3" class="tableTop" >Several of my current favorite games</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Game</td>
+                <td>Game Type</td>
+                <td>Rating 1-10</td>
+            </tr>
+            <tr>
+                <td>Assassins Creed Valhalla</td>
+                <td>3rd Person Stealth/RPG</td>
+                <td>9 out of 10</td>
+            </tr>
+            <tr>
+                <td>Outriders</td>
+                <td>1st Person Coop Looter Shooter</td>
+                <td>8/10</td>
+            </tr>
+            <tr>
+                <td>Curse of the Dead Gods</td>
+                <td>Rogue Lite</td>
+                <td>7/10</td>
+            </tr>
+            <tr>
+                <td>The Binding of Isaac</td>
+                <td>Rogue Like</td>
+                <td>7/10</td>
+            </tr>
+            <tr>
+                <td>Returnal</td>
+                <td>1st Person Shooter/Rogue Lite/Bullet Hell</td>
+                <td>9/10</td>
+            </tr>
+            <tr>
+                <td>Far Cry 3</td>
+                <td>1st Person Shooter/RPG Lite</td>
+                <td>10/10</td>
+            </tr>
+            <tr>
+                <td>Far Cry 4</td>
+                <td>1st Person Shooter/RPG Lite</td>
+                <td>9/10</td>
+            </tr>
+            <tr>
+                <td>Far Cry 5</td>
+                <td>1st Person Shooter/RPG Lite</td>
+                <td>8/10</td>
+            </tr>
+            <tr>
+                <td>Cyberpunk 2077</td>
+                <td>1st Person Shooter/RPG Lite</td>
+                <td>6/10</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="header">
+        <h2 class="center">Some of my recent reads</h2>
+    </div>
+    <ul>
+        <li>Priory of the Orange Tree * One of my favorite books of all time*</li>
+        <li>Malice *The Faithful and the Fallen Series, Amazing!*</li>
+        <li>Valor *The Faithful and the Fallen Series, Amazing!*</li>
+        <li>Ruin *The Faithful and the Fallen Series, Amazing!*</li>
+        <li>Wrath *The Faithful and the Fallen Series, Amazing!*</li>
+        <li>Shogun *Amazing book set in Feudal Japan, not quite completed*</li>
+    </ul>
+    <div class="header">
+        <h3>Please take this short survey and possibly win a free shirt!</h2>
+    </div>
     
-        <table class="tableCenter" >
-            <thead class="tableTop" >
-                <th colspan="3" class="tableTop" ><h2>Several of my current favorite games</h2></th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Game</td>
-                    <td>Game Type</td>
-                    <td>Rating 1-10</td>
-                </tr>
-                <tr>
-                    <td>Assassins Creed Valhalla</td>
-                    <td>3rd Person Stealth/RPG</td>
-                    <td>9 out of 10</td>
-                </tr>
-                <tr>
-                    <td>Outriders</td>
-                    <td>1st Person Coop Looter Shooter</td>
-                    <td>8/10</td>
-                </tr>
-                <tr>
-                    <td>Curse of the Dead Gods</td>
-                    <td>Rogue Lite</td>
-                    <td>7/10</td>
-                </tr>
-                <tr>
-                    <td>The Binding of Isaac</td>
-                    <td>Rogue Like</td>
-                    <td>7/10</td>
-                </tr>
-                <tr>
-                    <td>Returnal</td>
-                    <td>1st Person Shooter/Rogue Lite/Bullet Hell</td>
-                    <td>9/10</td>
-                </tr>
-                <tr>
-                    <td>Far Cry 3</td>
-                    <td>1st Person Shooter/RPG Lite</td>
-                    <td>10/10</td>
-                </tr>
-                <tr>
-                    <td>Far Cry 4</td>
-                    <td>1st Person Shooter/RPG Lite</td>
-                    <td>9/10</td>
-                </tr>
-                <tr>
-                    <td>Far Cry 5</td>
-                    <td>1st Person Shooter/RPG Lite</td>
-                    <td>8/10</td>
-                </tr>
-                <tr>
-                    <td>Cyberpunk 2077</td>
-                    <td>1st Person Shooter/RPG Lite</td>
-                    <td>6/10</td>
-                </tr>
-                <tr></tr>
-            </tbody>
-        </table>
+    
+        <form class="form">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <br>
+            <br>
+            <label for="yesEmail">Yes, Send me emails</label>
+            <input type="radio" id="yesEmail" name="yesEmail">
+            <label for="noEmail">Don't send me emails please</label>
+            <input type="radio" id="noEmail" name="noEmail">
+        </form>
+    
    
-    
-
-
 
 </body>
 
